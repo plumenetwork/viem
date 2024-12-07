@@ -12,15 +12,15 @@ export const plume = /*#__PURE__*/ defineChain({
   },
   rpcUrls: {
     default: {
-      http: ['https://rpc.plumenetwork.xyz'],
-      webSocket: ['wss://rpc.plumenetwork.xyz'],
+      http: ['https://phoenix-rpc.plumenetwork.xyz'],
+      webSocket: ['wss://phoenix-rpc.plumenetwork.xyz'],
     },
   },
   blockExplorers: {
     default: {
       name: 'Blockscout',
-      url: 'https://explorer.plumenetwork.xyz',
-      apiUrl: 'https://explorer.plumenetwork.xyz/api',
+      url: 'https://phoenix-explorer.plumenetwork.xyz',
+      apiUrl: 'https://phoenix-explorer.plumenetwork.xyz/api',
     },
   },
   sourceId,
